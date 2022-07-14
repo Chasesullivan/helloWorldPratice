@@ -1,15 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
-
+//import Button from '@mui/material';
 import * as React from 'react';
-import Button from '@mui/material/Button';
+import  './App.css';
+//import Login from './componets/Login';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        
+      
+        {/* <Login></Login> */}
+        );
+      ]
+
+        export default App
         <p>
-          lebron is the G.O.A.T
+          
           
           
           
@@ -28,9 +33,10 @@ function App() {
         <Button variant="contained"  className="App-link"
           href="https://reactjs.org"
           target="_blank"
-          rel="noopener noreferrer">Hello World</Button>;
+          rel="noopener noreferrer">Hello World
+        </Button>;
 
-<Button variant="contained" className="App-link"
+        <Button variant="contained" className="App-link"
           href="https://www.youtube.com"
           target="_blank"
           rel="noopener noreferrer">Youtube
@@ -39,7 +45,7 @@ function App() {
           
           
         
-      </header>
+      
     </div>
   );
 }
